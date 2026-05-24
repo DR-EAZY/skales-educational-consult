@@ -53,11 +53,11 @@ function Hero() {
           transition={{ duration: 0.8 }}
         >
 
-          <img
+          {/* <img
             src={businessInfo.logo}
             alt={businessInfo.businessName}
             className="w-24 mb-6 rounded-full"
-          />
+          /> */}
 
           <p className="
             text-blue-400

@@ -3,7 +3,7 @@ const hostels = [
     name: 'Golden Lodge',
     location: 'Ikole',
     type: 'Self Contain',
-    image: '/hostel1.jpg',
+    image: '/hostel.jpg',
   },
 
   {

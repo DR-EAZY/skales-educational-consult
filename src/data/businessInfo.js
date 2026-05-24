@@ -20,7 +20,7 @@ const businessInfo = {
 
   logo: '/logo.jpeg',
 
-  heroImage: '/students.png',
+  heroImage: '/student.jpg',
 }
 
 export default businessInfo
