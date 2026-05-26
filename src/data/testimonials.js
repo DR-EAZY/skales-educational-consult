@@ -1,14 +1,20 @@
 const testimonials = [
   {
-    name: 'Daniel',
+    name: 'Daniel A.',
     message:
-      'They helped me secure admission fast and stress free.',
+      'They helped me secure admission without stress. Very reliable and fast.',
   },
 
   {
-    name: 'Sarah',
+    name: 'Sarah K.',
     message:
-      'Very reliable hostel assistance and consultation.',
+      'I got a good hostel through them close to school. Highly recommended.',
+  },
+
+  {
+    name: 'Michael T.',
+    message:
+      'Professional consultation and quick response at all times.',
   },
 ]
 

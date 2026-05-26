@@ -5,7 +5,15 @@ html {
 }
 
 body {
+  font-family: sans-serif;
+}
+
+.dark body {
   background: #020617;
   color: white;
-  font-family: sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #020617;
 }

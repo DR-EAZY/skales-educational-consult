@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ThemeToggle from './ThemeToggle'
 
 import {
   Menu,
@@ -7,7 +8,7 @@ import {
 
 import businessInfo from '../data/businessInfo'
 
-function Navbar() {
+function Navbar({ darkMode, setDarkMode }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
@@ -66,6 +67,11 @@ function Navbar() {
         </div>
 
         {/* MOBILE BUTTON */}
+        <ThemeToggle
+  darkMode={darkMode}
+  setDarkMode={setDarkMode}
+/>
+
         <button
           className="md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
